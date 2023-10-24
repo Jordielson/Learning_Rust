@@ -1,4 +1,4 @@
-use crate::chapter_one::hello_world::hello_world;
+use crate::chapter_one::hello_cargo::hello_world;
 
 pub mod chapter_one;
 
