@@ -1,3 +1,3 @@
-pub fn hello_world() {
+pub fn say_hello_world() {
     println!("Hello, world!");
 }

@@ -1,7 +1,7 @@
-use crate::chapter_one::hello_cargo::hello_world;
+use crate::chapter_three::constants::learn_constants;
 
-pub mod chapter_one;
+pub mod chapter_three;
 
 fn main() {
-    hello_world();
+    learn_constants();
 }
