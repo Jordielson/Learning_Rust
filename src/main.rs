@@ -1,7 +1,7 @@
-use crate::chapter_three::constants::learn_constants;
+use crate::chapter_three::variables;
 
 pub mod chapter_three;
 
 fn main() {
-    learn_constants();
+    variables::change_variable_type_with_shadowing();
 }
