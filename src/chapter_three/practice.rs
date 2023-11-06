@@ -37,3 +37,18 @@ pub fn convert_between_fahrenheit_celsius() -> () {
 }
 
 
+// Generate the nth Fibonacci number
+use num_bigint::BigUint;
+use num_traits::One;
+
+pub fn generate_fibonacci_number(number: u32) -> BigUint {
+    let mut a = BigUint::one();
+    let mut b = BigUint::one();
+
+    for _ in 2..=number {
+        let next = &a + &b;
+        a = std::mem::replace(&mut b, next);
+    }
+
+    b
+}
