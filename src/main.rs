@@ -1,7 +1,7 @@
-use crate::chapter_three::variables;
+use crate::chapter_three::control_flow;
 
 pub mod chapter_three;
 
 fn main() {
-    variables::change_variable_type_with_shadowing();
+    control_flow::reverse_loop_range();
 }
