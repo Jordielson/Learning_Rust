@@ -1,7 +1,7 @@
-use crate::chapter_three::control_flow;
+use crate::chapter_three::practice;
 
 pub mod chapter_three;
 
 fn main() {
-    control_flow::reverse_loop_range();
+    practice::convert_between_fahrenheit_celsius();
 }
