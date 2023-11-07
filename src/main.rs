@@ -1,7 +1,7 @@
-use crate::chapter_three::practice;
+use crate::chapter_two::guessing_game;
 
-pub mod chapter_three;
+pub mod chapter_two;
 
 fn main() {
-    practice::print_twelve_days_christmas_lyrics();
+    guessing_game::processing_guess();
 }
