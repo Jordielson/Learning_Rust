@@ -1,7 +1,7 @@
-use crate::chapter_two::guessing_game;
+pub mod chapter_four;
 
-pub mod chapter_two;
+use crate::chapter_four::ownership;
 
 fn main() {
-    guessing_game::processing_guess();
+    ownership::return_value_of_function();
 }
